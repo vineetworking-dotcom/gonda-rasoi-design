@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>संपर्क करें व दान करें | गोंडा रसोई — हार्दिक फाउंडेशन</title>
+<meta name="description" content="गोंडा रसोई को दान करें — बैंक विवरण, QR कोड व संपर्क जानकारी। आपका सहयोग किसी की भूख मिटा सकता है।">
+<link rel="icon" href="assets/img/logo.webp">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="preloader">
+  <div class="preloader-ring">
+    <svg viewBox="0 0 80 80"><circle cx="40" cy="40" r="34"></circle></svg>
+    <img src="assets/img/logo.webp" alt="">
+  </div>
+  <div class="preloader-text">गोंडा रसोई लोड हो रहा है…</div>
+</div>
+<div class="scroll-progress"></div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.webp" alt="गोंडा रसोई लोगो">
+      <div><div class="brand-name">गोंडा रसोई</div><div class="brand-tag">Hardik Foundation</div></div>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">होम</a>
+      <a href="about.html">हमारे बारे में</a>
+      <a href="gonda-rasoi.html">गोंडा रसोई</a>
+      <a href="gallery.html">गैलरी</a>
+      <a href="contact.html" class="active">संपर्क</a>
+    </nav>
+    <div class="nav-cta-wrap">
+      <a href="#donate" class="btn btn-primary btn-sm nav-cta">अभी सहयोग करें</a>
+      <button class="hamburger" aria-label="मेनू खोलें"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">होम / संपर्क करें</div>
+    <div class="eyebrow" style="justify-content:center;">सेवा में सहभागी बनें</div>
+    <h1>आपका सहयोग,<br>किसी की भूख मिटा सकता है।</h1>
+    <p>बैंक विवरण, QR कोड या संपर्क माध्यम से आज ही गोंडा रसोई की सेवा से जुड़ें।</p>
+  </div>
+</section>
+
+<main>
+
+<!-- DONATE -->
+<section id="donate" class="section" style="padding-top:24px;">
+  <div class="container" style="display:grid; grid-template-columns:1.15fr .85fr; gap:40px; align-items:start;">
+
+    <div class="form-card reveal">
+      <h3 style="font-size:22px; margin-bottom:6px;">दान राशि चुनें</h3>
+      <p style="opacity:.7; font-size:14px; margin-bottom:22px;">हर योगदान मायने रखता है — छोटी सी राशि भी किसी की थाली भर सकती है।</p>
+      <div class="amt-grid">
+        <button class="amt-btn" data-value="500">₹500</button>
+        <button class="amt-btn" data-value="1500">₹1,500</button>
+        <button class="amt-btn" data-value="5000">₹5,000</button>
+        <button class="amt-btn" data-value="11000">₹11,000</button>
+      </div>
+      <div class="range-wrap" style="margin-top:22px;">
+        <div style="display:flex; justify-content:space-between; font-family:var(--f-acc); font-size:12px; opacity:.6; margin-bottom:8px;"><span>₹100</span><span>₹25,000</span></div>
+        <input type="range" id="sevaRange" class="seva-range" min="100" max="25000" step="100" value="1500">
+      </div>
+      <div class="form-row" style="margin-top:18px;">
+        <label>अन्य राशि (₹)</label>
+        <input type="number" id="customAmount" placeholder="राशि दर्ज करें">
+      </div>
+      <p id="impactLine" style="font-family:var(--f-acc); font-size:13.5px; color:var(--maroon); font-weight:600; margin:6px 0 22px;"></p>
+
+      <form id="donateForm">
+        <div class="form-row"><label>पूरा नाम</label><input type="text" placeholder="आपका नाम" required></div>
+        <div class="form-row"><label>मोबाइल नंबर</label><input type="tel" placeholder="10 अंकों का मोबाइल नंबर" required></div>
+        <div class="form-row"><label>ईमेल (वैकल्पिक)</label><input type="email" placeholder="you@example.com"></div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+          दान करें <span id="donateAmountLabel">₹1,500</span> →
+        </button>
+        <div id="formMsg" class="hidden" style="margin-top:16px; background:var(--cream-light); border:1px solid var(--border-gold); border-radius:10px; padding:14px 16px; font-size:13.5px;"></div>
+      </form>
+      <p style="font-size:12px; opacity:.6; margin-top:16px; text-align:center;">🔒 सुरक्षित भुगतान · 80G दस्तावेज़ीकरण उपलब्ध</p>
+    </div>
+
+    <div style="display:grid; gap:24px;">
+      <div class="qr-card reveal" data-delay="100">
+        <h3 style="font-size:18px; margin-bottom:14px;">QR कोड से भुगतान करें</h3>
+        <img src="assets/img/qr.jpeg" alt="हार्दिक फाउंडेशन QR कोड">
+        <p style="font-family:var(--f-acc); font-size:13px; opacity:.75;">UPI ID: boim-691090000877@boi</p>
+      </div>
+
+      <div class="info-card reveal" data-delay="160">
+        <h3>🏦 बैंक विवरण</h3>
+        <div class="info-row"><span>खाता नाम</span><span>Hardik Foundation</span></div>
+        <div class="info-row"><span>बैंक</span><span>Bank of India, Gonda</span></div>
+        <div class="info-row"><span>खाता संख्या</span><span>691020110000877 <button class="copy-btn" data-copy="691020110000877">Copy</button></span></div>
+        <div class="info-row"><span>IFSC कोड</span><span>BKID0006910 <button class="copy-btn" data-copy="BKID0006910">Copy</button></span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT INFO -->
+<section class="section" style="background:var(--cream-light);">
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width:640px; margin:0 auto 20px;">
+      <div class="eyebrow" style="justify-content:center;">हमसे संपर्क करें</div>
+      <h2 style="margin-top:14px;">हम आपकी सेवा में हैं।</h2>
+    </div>
+    <div class="pillar-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="pillar-card reveal">
+        <div class="pillar-icon">📍</div>
+        <h3>पता</h3>
+        <p>गोंडा रसोई, स्टेशन रोड, गोंडा, उत्तर प्रदेश</p>
+      </div>
+      <div class="pillar-card reveal" data-delay="80">
+        <div class="pillar-icon">📞</div>
+        <h3>फ़ोन</h3>
+        <p>हार्दिक फाउंडेशन: 7379761111<br>पीयूष पाण्डेय: 9454809000</p>
+      </div>
+      <div class="pillar-card reveal" data-delay="160">
+        <div class="pillar-icon">🕘</div>
+        <h3>भोजन सेवा समय</h3>
+        <p>प्रतिदिन दोपहर भोजन सेवा — सभी जरूरतमंदों के लिए खुला</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOLUNTEER / WHATSAPP -->
+<section class="section">
+  <div class="container">
+    <div class="dual-cta">
+      <div class="dual-card reveal">
+        <svg class="svg-icon" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-1a8 8 0 0 1 16 0v1"/></svg>
+        <h3>स्वयंसेवक बनें</h3>
+        <p>अपना समय व कौशल दान करें — भोजन सेवा, शिक्षा सहायता या स्वास्थ्य शिविरों में हाथ बंटाएं।</p>
+        <form class="inline-form">
+          <input type="text" placeholder="आपका नाम" required>
+          <input type="tel" placeholder="मोबाइल नंबर" required>
+          <button type="submit" class="btn btn-primary btn-sm">जुड़ें</button>
+        </form>
+      </div>
+      <div class="dual-card reveal" data-delay="100">
+        <svg class="svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 21l1.6-4.8A8 8 0 1 1 8.8 20L3 21Z"/></svg>
+        <h3>WhatsApp अपडेट पाएं</h3>
+        <p>गोंडा रसोई की सेवा गतिविधियों व आयोजनों की जानकारी सीधे WhatsApp पर पाने के लिए जुड़ें।</p>
+        <form class="inline-form">
+          <input type="tel" placeholder="मोबाइल नंबर दर्ज करें" required>
+          <button type="submit" class="btn btn-outline btn-sm">सब्सक्राइब करें</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE -->
+<section class="section-tight">
+  <div class="container">
+    <div class="quote-block reveal">
+      <p>"आपके सहयोग, विश्वास और आशीर्वाद से यह सेवा निरंतर जारी है। सेवा ही सच्ची पूजा है।"</p>
+      <div class="attrib">— गोंडा रसोई परिवार</div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand"><img src="assets/img/logo.webp" alt="लोगो"><b>गोंडा रसोई</b></div>
+      <p style="font-size:14.5px; line-height:1.7;">हार्दिक फाउंडेशन की एक पुनीत सेवा — प्रतिदिन जरूरतमंदों को भरपेट भोजन।</p>
+    </div>
+    <div><h4>त्वरित लिंक</h4><ul>
+      <li><a href="about.html">हमारे बारे में</a></li>
+      <li><a href="gonda-rasoi.html">गोंडा रसोई</a></li>
+      <li><a href="gallery.html">गैलरी</a></li>
+      <li><a href="contact.html">संपर्क करें</a></li>
+    </ul></div>
+    <div><h4>संपर्क</h4><ul>
+      <li>📍 स्टेशन रोड, गोंडा, उत्तर प्रदेश</li>
+      <li>📞 7379761111</li>
+      <li>📞 9454809000</li>
+    </ul></div>
+    <div><h4>सहयोगी</h4><ul><li>Akshat Group</li></ul>
+      <a href="#donate" class="btn btn-primary btn-sm" style="margin-top:6px; background:var(--gold);">दान करें</a>
+    </div>
+  </div>
+  <div class="footer-bottom container">© 2026 हार्दिक फाउंडेशन · गोंडा रसोई। सर्वाधिकार सुरक्षित।</div>
+</footer>
+
+<div class="fab-stack">
+  <a href="https://wa.me/917379761111" target="_blank" rel="noopener" class="fab fab-wa"><svg class="fab-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 20 12a8 8 0 0 1-8 8Zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.8 1-.1.1-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.1.1-.3.1-.4 0-.1-.5-1.3-.7-1.7-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.4.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.5-.3Z"/></svg><span class="fab-label">WhatsApp</span></a>
+  <a href="contact.html#donate" class="fab fab-donate"><svg class="fab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.8 8.6c0 5-8.8 10.4-8.8 10.4S3.2 13.6 3.2 8.6a4.6 4.6 0 0 1 8.8-1.8 4.6 4.6 0 0 1 8.8 1.8Z"/></svg><span class="fab-label">दान करें</span></a>
+</div>
+
+<div class="back-top">↑</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
